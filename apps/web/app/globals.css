@@ -1,0 +1,123 @@
+@import "tailwindcss";
+
+@theme {
+  --color-gold: #D4A843;
+  --color-gold-light: #E8C46A;
+  --color-gold-dark: #B8891F;
+  --color-bg-primary: #0F1419;
+  --color-bg-secondary: #1A1F2E;
+  --color-bg-tertiary: #242938;
+  --color-bg-card: #1E2433;
+  --color-text-primary: #F5F0E8;
+  --color-text-secondary: #B8B0A0;
+  --color-text-muted: #7A7468;
+  --color-border: #2E3448;
+  --color-border-gold: rgba(212, 168, 67, 0.3);
+  --color-success: #4CAF7D;
+  --color-danger: #E05252;
+
+  --font-sans: "Inter", system-ui, -apple-system, sans-serif;
+  --font-serif: "Georgia", "Times New Roman", serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-bg-primary);
+  color: var(--color-text-primary);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Gold accent scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-bg-secondary);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-gold-dark);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-gold);
+}
+
+/* Utility classes */
+.text-gold {
+  color: var(--color-gold);
+}
+
+.bg-card {
+  background-color: var(--color-bg-card);
+  border: 1px solid var(--color-border);
+  border-radius: 0.75rem;
+}
+
+.gold-border {
+  border-color: var(--color-border-gold);
+}
+
+.gradient-gold {
+  background: linear-gradient(135deg, var(--color-gold-dark), var(--color-gold), var(--color-gold-light));
+}
+
+.gradient-bg {
+  background: linear-gradient(180deg, var(--color-bg-primary) 0%, var(--color-bg-secondary) 100%);
+}
+
+/* Card hover effect */
+.card-hover {
+  transition: border-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card-hover:hover {
+  border-color: var(--color-border-gold);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(212, 168, 67, 0.1);
+}
+
+/* Stock card hover */
+.stock-card {
+  transition: border-color 0.2s ease, transform 0.15s ease, box-shadow 0.2s ease;
+}
+
+.stock-card:hover {
+  border-color: var(--color-border-gold);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(212, 168, 67, 0.1);
+}
+
+/* Spin animation for refresh button */
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+
+/* Tabular nums for price data */
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Pulse animation for loading skeletons */
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50%       { opacity: 0.4; }
+}
+
+.animate-pulse {
+  animation: pulse 1.6s ease-in-out infinite;
+}

@@ -1,0 +1,335 @@
+{
+  "version": "1.0.0",
+  "lastScanned": 1774405617082,
+  "projectRoot": "/Users/kimjiwon/Desktop/kimjiwon/오마하부자",
+  "techStack": {
+    "languages": [],
+    "frameworks": [],
+    "packageManager": null,
+    "runtime": null
+  },
+  "build": {
+    "buildCommand": null,
+    "testCommand": null,
+    "lintCommand": null,
+    "devCommand": null,
+    "scripts": {}
+  },
+  "conventions": {
+    "namingStyle": null,
+    "importStyle": null,
+    "testPattern": null,
+    "fileOrganization": null
+  },
+  "structure": {
+    "isMonorepo": false,
+    "workspaces": [],
+    "mainDirectories": [],
+    "gitBranches": null
+  },
+  "customNotes": [],
+  "directoryMap": {},
+  "hotPaths": [
+    {
+      "path": "package.json",
+      "accessCount": 7,
+      "lastAccessed": 1774411511374,
+      "type": "file"
+    },
+    {
+      "path": "apps/web/package.json",
+      "accessCount": 6,
+      "lastAccessed": 1774407840663,
+      "type": "file"
+    },
+    {
+      "path": "apps/web/next.config.ts",
+      "accessCount": 5,
+      "lastAccessed": 1774407844318,
+      "type": "file"
+    },
+    {
+      "path": "backend/app/api/v1/analysis.py",
+      "accessCount": 5,
+      "lastAccessed": 1774411225608,
+      "type": "file"
+    },
+    {
+      "path": "backend/app/api/router.py",
+      "accessCount": 4,
+      "lastAccessed": 1774410990934,
+      "type": "file"
+    },
+    {
+      "path": "backend/app/main.py",
+      "accessCount": 4,
+      "lastAccessed": 1774411237619,
+      "type": "file"
+    },
+    {
+      "path": "apps/web/app/layout.tsx",
+      "accessCount": 4,
+      "lastAccessed": 1774411432643,
+      "type": "file"
+    },
+    {
+      "path": "apps/web/app/page.tsx",
+      "accessCount": 3,
+      "lastAccessed": 1774407740134,
+      "type": "file"
+    },
+    {
+      "path": "apps/web/app/analysis/page.tsx",
+      "accessCount": 3,
+      "lastAccessed": 1774407777327,
+      "type": "file"
+    },
+    {
+      "path": "apps/web/app/globals.css",
+      "accessCount": 3,
+      "lastAccessed": 1774407785541,
+      "type": "file"
+    },
+    {
+      "path": "backend/app/config.py",
+      "accessCount": 3,
+      "lastAccessed": 1774410990524,
+      "type": "file"
+    },
+    {
+      "path": "backend/app/api/v1/stocks.py",
+      "accessCount": 3,
+      "lastAccessed": 1774410991756,
+      "type": "file"
+    },
+    {
+      "path": "RESEARCH.md",
+      "accessCount": 2,
+      "lastAccessed": 1774406407024,
+      "type": "file"
+    },
+    {
+      "path": "backend/app/schemas/stock.py",
+      "accessCount": 2,
+      "lastAccessed": 1774407561267,
+      "type": "file"
+    },
+    {
+      "path": "backend/app/services/kis/client.py",
+      "accessCount": 2,
+      "lastAccessed": 1774407562078,
+      "type": "file"
+    },
+    {
+      "path": "backend/app/services/kis/domestic.py",
+      "accessCount": 2,
+      "lastAccessed": 1774407566168,
+      "type": "file"
+    },
+    {
+      "path": "backend/app/services/kis/overseas.py",
+      "accessCount": 2,
+      "lastAccessed": 1774407566568,
+      "type": "file"
+    },
+    {
+      "path": "apps/web/components/layout/Header.tsx",
+      "accessCount": 2,
+      "lastAccessed": 1774407597161,
+      "type": "file"
+    },
+    {
+      "path": "apps/web/components/layout/Sidebar.tsx",
+      "accessCount": 2,
+      "lastAccessed": 1774407597683,
+      "type": "file"
+    },
+    {
+      "path": "apps/web/app/portfolio/page.tsx",
+      "accessCount": 2,
+      "lastAccessed": 1774407598503,
+      "type": "file"
+    },
+    {
+      "path": "backend/app/schemas/__init__.py",
+      "accessCount": 2,
+      "lastAccessed": 1774407828413,
+      "type": "file"
+    },
+    {
+      "path": "backend/app/services/__init__.py",
+      "accessCount": 2,
+      "lastAccessed": 1774407828870,
+      "type": "file"
+    },
+    {
+      "path": "backend/app/schemas/analysis.py",
+      "accessCount": 2,
+      "lastAccessed": 1774410991331,
+      "type": "file"
+    },
+    {
+      "path": "backend/app/api/v1/portfolio.py",
+      "accessCount": 2,
+      "lastAccessed": 1774410992298,
+      "type": "file"
+    },
+    {
+      "path": "README.md",
+      "accessCount": 1,
+      "lastAccessed": 1774405650880,
+      "type": "file"
+    },
+    {
+      "path": "turbo.json",
+      "accessCount": 1,
+      "lastAccessed": 1774406404680,
+      "type": "file"
+    },
+    {
+      "path": "packages/shared/package.json",
+      "accessCount": 1,
+      "lastAccessed": 1774406416913,
+      "type": "file"
+    },
+    {
+      "path": "packages/shared/tsconfig.json",
+      "accessCount": 1,
+      "lastAccessed": 1774406418984,
+      "type": "file"
+    },
+    {
+      "path": "backend/app/__init__.py",
+      "accessCount": 1,
+      "lastAccessed": 1774406427909,
+      "type": "file"
+    },
+    {
+      "path": "backend/app/api/__init__.py",
+      "accessCount": 1,
+      "lastAccessed": 1774406428649,
+      "type": "file"
+    },
+    {
+      "path": "backend/app/api/v1/__init__.py",
+      "accessCount": 1,
+      "lastAccessed": 1774406429033,
+      "type": "file"
+    },
+    {
+      "path": "backend/app/services/kis/__init__.py",
+      "accessCount": 1,
+      "lastAccessed": 1774406430227,
+      "type": "file"
+    },
+    {
+      "path": "backend/app/services/analysis/__init__.py",
+      "accessCount": 1,
+      "lastAccessed": 1774406430917,
+      "type": "file"
+    },
+    {
+      "path": "packages/shared/src/types/stock.ts",
+      "accessCount": 1,
+      "lastAccessed": 1774406431322,
+      "type": "file"
+    },
+    {
+      "path": "backend/app/services/data/__init__.py",
+      "accessCount": 1,
+      "lastAccessed": 1774406431636,
+      "type": "file"
+    },
+    {
+      "path": "backend/app/services/ai/__init__.py",
+      "accessCount": 1,
+      "lastAccessed": 1774406432025,
+      "type": "file"
+    },
+    {
+      "path": "backend/app/services/news/__init__.py",
+      "accessCount": 1,
+      "lastAccessed": 1774406432465,
+      "type": "file"
+    },
+    {
+      "path": "backend/app/models/__init__.py",
+      "accessCount": 1,
+      "lastAccessed": 1774406432844,
+      "type": "file"
+    },
+    {
+      "path": "backend/tests/__init__.py",
+      "accessCount": 1,
+      "lastAccessed": 1774406433916,
+      "type": "file"
+    },
+    {
+      "path": "packages/shared/src/index.ts",
+      "accessCount": 1,
+      "lastAccessed": 1774406434409,
+      "type": "file"
+    },
+    {
+      "path": "apps/web/tsconfig.json",
+      "accessCount": 1,
+      "lastAccessed": 1774406441123,
+      "type": "file"
+    },
+    {
+      "path": "apps/web/postcss.config.mjs",
+      "accessCount": 1,
+      "lastAccessed": 1774406445306,
+      "type": "file"
+    },
+    {
+      "path": "backend/app/schemas/portfolio.py",
+      "accessCount": 1,
+      "lastAccessed": 1774406486163,
+      "type": "file"
+    },
+    {
+      "path": "RESEARCH_SUPPLEMENT.md",
+      "accessCount": 1,
+      "lastAccessed": 1774406516114,
+      "type": "file"
+    },
+    {
+      "path": "backend/app/api/v1/news.py",
+      "accessCount": 1,
+      "lastAccessed": 1774406520897,
+      "type": "file"
+    },
+    {
+      "path": "backend/app/services/kis/auth.py",
+      "accessCount": 1,
+      "lastAccessed": 1774406531367,
+      "type": "file"
+    },
+    {
+      "path": "apps/web/app/news/page.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1774406548728,
+      "type": "file"
+    },
+    {
+      "path": "backend/app/services/analysis/value.py",
+      "accessCount": 1,
+      "lastAccessed": 1774406615827,
+      "type": "file"
+    },
+    {
+      "path": "backend/app/services/analysis/financial.py",
+      "accessCount": 1,
+      "lastAccessed": 1774406629264,
+      "type": "file"
+    },
+    {
+      "path": "backend/app/services/analysis/technical.py",
+      "accessCount": 1,
+      "lastAccessed": 1774406641427,
+      "type": "file"
+    }
+  ],
+  "userDirectives": []
+}

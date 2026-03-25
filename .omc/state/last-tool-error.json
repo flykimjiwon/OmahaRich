@@ -1,0 +1,7 @@
+{
+  "tool_name": "Bash",
+  "tool_input_preview": "{\"command\":\"cd \\\"/Users/kimjiwon/Desktop/kimjiwon/오마하부자/backend\\\" && python3 -c \\\"import yfinance; print('yfinance OK')\\\" 2>&1 && python3 -c \\\"import pykrx; print('pykrx OK')\\\" 2>&1 && python3 -c \\\"im...",
+  "error": "Exit code 1\nTraceback (most recent call last):\n  File \"<string>\", line 1, in <module>\nModuleNotFoundError: No module named 'yfinance'\n\nTraceback (most recent call last):\n  File \"<string>\", line 1, in <module>\nModuleNotFoundError: No module named 'yfinance'",
+  "timestamp": "2026-03-25T04:04:33.487Z",
+  "retry_count": 1
+}
